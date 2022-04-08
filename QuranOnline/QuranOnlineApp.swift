@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct QuranOnlineApp: App {
+    var objEnv = ApiServices()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen().environmentObject(objEnv).environment(\.colorScheme, .light)
         }
     }
 }

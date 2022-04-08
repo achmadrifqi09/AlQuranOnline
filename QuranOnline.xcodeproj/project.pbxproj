@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4DC1BE28009B76004317BF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DC1BD28009B76004317BF /* SplashScreen.swift */; };
+		7F99CBA027FB9833008138D1 /* DetailSurahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99CB9F27FB9833008138D1 /* DetailSurahModel.swift */; };
+		7F99CBA227FB9BC3008138D1 /* SurahDetailServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99CBA127FB9BC3008138D1 /* SurahDetailServices.swift */; };
 		7FB8F54227F629150072F1ED /* QuranOnlineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F54127F629150072F1ED /* QuranOnlineApp.swift */; };
 		7FB8F54427F629150072F1ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F54327F629150072F1ED /* ContentView.swift */; };
 		7FB8F54627F629160072F1ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB8F54527F629160072F1ED /* Assets.xcassets */; };
 		7FB8F54927F629160072F1ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB8F54827F629160072F1ED /* Preview Assets.xcassets */; };
+		7FB8F55127F62AF80072F1ED /* SurahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F55027F62AF80072F1ED /* SurahModel.swift */; };
+		7FB8F55527F62BD50072F1ED /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F55427F62BD50072F1ED /* ApiServices.swift */; };
+		7FCF8CD62800206600F3C37B /* PrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF8CD52800206600F3C37B /* PrayerModel.swift */; };
+		7FCF8CD82800209800F3C37B /* PrayerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF8CD72800209800F3C37B /* PrayerServices.swift */; };
+		7FCF8CDA2800249800F3C37B /* PrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF8CD92800249800F3C37B /* PrayerView.swift */; };
+		7FDEF0DE27FAC2BA0027E912 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEF0DD27FAC2BA0027E912 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F4DC1BD28009B76004317BF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		7F99CB9F27FB9833008138D1 /* DetailSurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSurahModel.swift; sourceTree = "<group>"; };
+		7F99CBA127FB9BC3008138D1 /* SurahDetailServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahDetailServices.swift; sourceTree = "<group>"; };
 		7FB8F53E27F629150072F1ED /* QuranOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB8F54127F629150072F1ED /* QuranOnlineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranOnlineApp.swift; sourceTree = "<group>"; };
 		7FB8F54327F629150072F1ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FB8F54527F629160072F1ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB8F54827F629160072F1ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FB8F55027F62AF80072F1ED /* SurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahModel.swift; sourceTree = "<group>"; };
+		7FB8F55427F62BD50072F1ED /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		7FCF8CD52800206600F3C37B /* PrayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerModel.swift; sourceTree = "<group>"; };
+		7FCF8CD72800209800F3C37B /* PrayerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerServices.swift; sourceTree = "<group>"; };
+		7FCF8CD92800249800F3C37B /* PrayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerView.swift; sourceTree = "<group>"; };
+		7FDEF0DD27FAC2BA0027E912 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,13 @@
 		7FB8F54027F629150072F1ED /* QuranOnline */ = {
 			isa = PBXGroup;
 			children = (
+				7FB8F55327F62B9A0072F1ED /* Web Service */,
 				7FB8F54127F629150072F1ED /* QuranOnlineApp.swift */,
+				7FDEF0DD27FAC2BA0027E912 /* HomeView.swift */,
+				7FCF8CD92800249800F3C37B /* PrayerView.swift */,
+				7F4DC1BD28009B76004317BF /* SplashScreen.swift */,
 				7FB8F54327F629150072F1ED /* ContentView.swift */,
+				7FB8F54F27F62ACF0072F1ED /* Model */,
 				7FB8F54527F629160072F1ED /* Assets.xcassets */,
 				7FB8F54727F629160072F1ED /* Preview Content */,
 			);
@@ -65,6 +88,26 @@
 				7FB8F54827F629160072F1ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FB8F54F27F62ACF0072F1ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FB8F55027F62AF80072F1ED /* SurahModel.swift */,
+				7F99CB9F27FB9833008138D1 /* DetailSurahModel.swift */,
+				7FCF8CD52800206600F3C37B /* PrayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FB8F55327F62B9A0072F1ED /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				7FB8F55427F62BD50072F1ED /* ApiServices.swift */,
+				7F99CBA127FB9BC3008138D1 /* SurahDetailServices.swift */,
+				7FCF8CD72800209800F3C37B /* PrayerServices.swift */,
+			);
+			path = "Web Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCF8CD62800206600F3C37B /* PrayerModel.swift in Sources */,
+				7F99CBA027FB9833008138D1 /* DetailSurahModel.swift in Sources */,
 				7FB8F54427F629150072F1ED /* ContentView.swift in Sources */,
+				7FB8F55127F62AF80072F1ED /* SurahModel.swift in Sources */,
+				7FB8F55527F62BD50072F1ED /* ApiServices.swift in Sources */,
+				7FCF8CD82800209800F3C37B /* PrayerServices.swift in Sources */,
+				7F4DC1BE28009B76004317BF /* SplashScreen.swift in Sources */,
+				7F99CBA227FB9BC3008138D1 /* SurahDetailServices.swift in Sources */,
+				7FDEF0DE27FAC2BA0027E912 /* HomeView.swift in Sources */,
 				7FB8F54227F629150072F1ED /* QuranOnlineApp.swift in Sources */,
+				7FCF8CDA2800249800F3C37B /* PrayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +325,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,8 +356,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +369,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
