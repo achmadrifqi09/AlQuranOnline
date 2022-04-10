@@ -23,11 +23,6 @@ class SurahDetailServices : ObservableObject{
         
         URLSession.shared.dataTask(with: urlRequest) { data, response, error in
          
-            if error != nil {
-                print("Error")
-                return
-            }
-           
             guard let response = response as? HTTPURLResponse else{
                 return
             }
